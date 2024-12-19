@@ -1,12 +1,9 @@
-//-------------------------------MPU6050 Accelerometer and Gyroscope C++ library-----------------------------
-//Copyright (c) 2019, Alex Mous
-//Licensed under the CC BY-NC SA 4.0
-
+//-------------------------Accelerometer and Gyroscope C++ library-----------------------------
 //Example code
 
-#include <MPU6050.h>
+#include <LSM6DSO.h>
 
-MPU6050 device(0x68);
+LSM6DSO device(0x68);
 
 int main() {
 	float ax, ay, az, gr, gp, gy; //Variables to store the accel, gyro and angle values
